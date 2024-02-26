@@ -6,4 +6,4 @@ a = 0
 async def read_root():
     global a  # Khai báo rằng `a` là một biến global
     a += 1
-    return {"Hello": "World" + a}
+    return {"Hello": f"World {a}"}
